@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif; /* Tipo da fonte*/
+}
+h3{
+    color: #1a6868; /*muda a cor do titulo 3*/
+}
+li::marker{
+    color: #ff5100; /* muda a cor dos numeros da lista do marcador*/
+    font-style: italic;/*muda o estilo da fonte*/
+}
+li{
+    line-height: 30px; /*muda tamanho da linha*/
+}
+input[type="checkbox"]:checked + p{ /*transforma os items da lista em checkbox*/
+    text-decoration: line-through;
+}
+li > input[type="checkbox"], li > p{
+    display: inline;
+}
+li > p{
+    color: black !important;
+}
+
+h1 {
+    color: #12787c;
+}
